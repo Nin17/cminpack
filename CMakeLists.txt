@@ -157,7 +157,7 @@ foreach (cminpack_lib ${cminpack_libs})
   install (TARGETS ${cminpack_lib} EXPORT CMinpackConfig
     LIBRARY DESTINATION ${CMINPACK_LIB_INSTALL_DIR} COMPONENT library
     ARCHIVE DESTINATION ${CMINPACK_LIB_INSTALL_DIR} COMPONENT library
-    RUNTIME DESTINATION bin COMPONENT library)
+    RUNTIME DESTINATION ${CMINPACK_LIB_INSTALL_DIR} COMPONENT library)
   install (FILES ${cminpack_hdrs} DESTINATION ${CMINPACK_INCLUDE_INSTALL_DIR}
     COMPONENT cminpack_hdrs)
 
