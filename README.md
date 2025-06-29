@@ -28,7 +28,20 @@ The project home page is at http://devernay.github.io/cminpack
 History
 ------
 
-* version 1.3.9 (//):
+* version 1.3.11 (13/09/2024):
+  - Bump installed version number to 1.3.11 #75
+
+* version 1.3.10 (11/09/2024):
+  - Disable BLAS by default #66 #70
+  - Fix BLAS usage (broken by #58) #68
+  - Fix testing on Windows #63
+  - Fix pkg-config files #71
+  - Bump minimum CMake version #69
+
+* version 1.3.9 (28/05/2024):
+  - CMake portability fixes #50 #53 #56 #57 #58 #62
+  - MKL-related fixes #51 #52
+  - Support more CI build configurations #59 #61
 
 * version 1.3.8 (09/02/2021):
   - CMake now builds by default the single-, double-, and extended-precision versions #45 #48
